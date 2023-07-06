@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: darkslategrey;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;
+}
+.menus{display: flex;}
+.iteam{
+    margin-right: 8px;
+    padding-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.iteam:hover{
+    color: orangered;
+}
+.banner-img{
+    width: 450px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: 2px solid;
+}
